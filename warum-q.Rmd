@@ -3,6 +3,7 @@ title: "Warum, Wie und Wofür Q?"
 author: "Maximilian Held"
 date: "1/3/2017"
 output:
+  word_document: default
   pdf_document:
     number_sections: yes
   html_document:
@@ -256,7 +257,7 @@ Besonders über den Forschungsgegenstand sachkundige oder sonstwie homogene Sort
 (...)
 
 
-#### Analyseverfahren
+### Analyseverfahren
 
 (...)
 
@@ -443,7 +444,7 @@ Parallel Analyse fehlen noch.)
     (Status: In der Entwicklung.
     Umstellung auf Non-Negative Matrix Factorisation (NNMF) wahrscheinlich nötig, etwa @cichocki-zdunek-etal-2009).
 
-    3. **Q-Sparse**: 
+3. **Q-Sparse**: 
     Hier geben wir die bisherige Annahme von Q auf, das *alle 
 Teilnehmenden alle Items sortieren*. 
     Anstelle dessen, sortiert jede/r Teilnehmende nur noch eine kleinere Auswahl von Items, so dass *insgesamt* eine größere (>>100) Anzahl von Items erhoben, und das HDLSSS-Problem damit entspannt werden kann. 
@@ -483,7 +484,7 @@ werden, selbst wenn dies empirisch der Fall sein sollte.
     Zu viele Veröffentlichungen extrahieren und interpretieren viel zu viele Faktoren von viel zu "flachen" Daten, also Datensätzen mit (viel) *zu wenigen Item-Fällen* für die angebotenen Ergebnisse (sie oben stehendes HDLSS-Problem).
 
 - **@Akthar-Danesh-2015**, **@Akthar-Danesh-2007**: Eine Reihe von methodologischen Reformvorschlägen für Q, vor allem hinsichtlich Rotation (Varimax oder Quartimax) und Extraktion (PCA oder Maximum Likelihood, aber kein Centroid). 
-    Liegt leider (bisher) nur als Konferenzbeiträge vor, Artikel hängen anscheinend bei dem orthodoxen Q Journal ("Operant Subjectivity") in der Warteschleife. 
+    Liegen leider (bisher) nur als Konferenzbeiträge vor, Artikel hängen anscheinend bei dem orthodoxen Q Journal ("Operant Subjectivity") in der Warteschleife. 
     Noori Akthar-Danesh hatte im September um eine Befürwortung seines Forschungsantrages gebeten; wir sind im Kontakt über seine Neuerungen.
 
 - **@Jeffares-2014**: Konferenzbeitrag über Q Methodologie und Big Data, hauptsächlich eine methodologische Einordnung von Q und R in Big Data. 

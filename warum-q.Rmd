@@ -267,12 +267,32 @@ Besonders über den Forschungsgegenstand sachkundige Sortierende werden auch ein
 
 #### Sortierung
 
+Im Q-Sort sortieren Teilnehmende die Items in vorgegebene Felder einer Schablone, die in etwa einer quasi-normalen Verteilung folgt.
+Die Items werden entlang der x-Achse in eine Rangordnung gebracht, mit negativ eingeschätzten Items am linken Ende, positiv beurteilten Items am rechten Ende und neutral oder ambivalent bewerteten Items in der Mitte der Verteilung.
+Die y-Achse der Schablone misst *keine* eigenständige Dimension, sondern dient lediglich der Darstellung von ranggleichen Items (englisch "ties"), zwischen denen der Sortierende indifferent ist, um übereinanderliegende Items zu vermeiden.
+Diese *scheinbare* Zweidimensionalität der Erhebungsoberfläche führt bei Teilnehmenden leicht zu Verwirrung; sie sollten daher erinnert werden *nur* entlang der x-Achse zu Sortieren, und der y-Dimension keine weitere Beachtung zu schenken.
+
+Klassischerweise *erwzingt* die Schablone eine quasi-normale Verteilung ohne Schiefe (= symmetrisch) und mit normaler Wölbung (= mesokurtisch), in der genausoviele Felder zur Verfügung stehen, wie Items zu sortieren sind.
+Damit produzieren die Teilnehmenden alle Sortierungen mit der gleichen Standardabweichung und Durchschnitt (sowie anderen statistischen Momenten), was die Analyse historisch vereinfacht hat.
+Zudem stellt eine erzwungene Verteilung (englisch "forced distribution") eine vollständig ipsative Messung sicher.
+Alle Items werden von Sortierenden anhand der*selben* Skala gemessen, nämlich dem Rang relativ zu *allen anderen Items*.
+Erst diese Annahme ermöglicht es später, die transponierte Datenmatrix zu analysieren.
+
+
+
+
+
+
 (...)
 
 
 ### Analyseverfahren
 
 (...)
+
+<!-- Im Unterschied zu klassischen, jüngst in die Kritik geratenen Q-methodologischen Ansätzen (Tamas & Kampen 2014), arbeiten diese Ansätze nach konventionellen statistische Verfahren und Standards. In dem Verfahren sind Bürger*innen eingeladen, eine größere Anzahl von das Nudging betreffende kontroversen Aussagen und Szenarien in eine Rangordnung zu bringen und offen zu kategorisieren. Diese Sortierungen und Kategorisierungen werden mittels modernen statistischen Dimensionsreduktionsverfahren zu idealtypischen Sichtweisen zum Thema Nudging zusammengefasst. -->
+
+<!-- Diese Sichtweisen können schließlich vom Forscherteam induktiv interpretiert werden. Insbesondere kann mittels des neu entwickelten Q2D Verfahrens ermittelt werden, ob und inwiefern Bürgerinnen und Bürger zwischen (ontologischen) Annahmen und (axiologischen) Bewertungen unterscheiden. -->
 
 <!--' The way people are working is purportedly changing, yet, amidst all the  -->
 <!--' buzzwords of "Work 2.0", "Industry 4.0" and "Digital Economy", even amongst  -->

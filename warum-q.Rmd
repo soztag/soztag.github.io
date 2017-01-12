@@ -5,11 +5,11 @@ author:
 - Verena Kasztantowicz
 date: "1/3/2017"
 output:
-  html_document:
-    number_sections: yes
+  word_document: default
   pdf_document:
     number_sections: yes
-  word_document: default
+  html_document:
+    number_sections: yes
 geometry: margin=2in
 documentclass: article
 bibliography: held_library.bib
@@ -306,7 +306,6 @@ Erst diese Annahme ermöglicht es später, die transponierte Datenmatrix zu anal
 
 (...)
 
-Im Unterschied zu klassischen, jüngst in die Kritik geratenen Q-methodologischen Ansätzen (Tamas & Kampen 2014), arbeiten diese Ansätze nach konventionellen statistische Verfahren und Standards. 
 <!-- In dem Verfahren sind Bürger*innen eingeladen, eine größere Anzahl von das Nudging betreffende kontroversen Aussagen und Szenarien in eine Rangordnung zu bringen und offen zu kategorisieren. Diese Sortierungen und Kategorisierungen werden mittels modernen statistischen Dimensionsreduktionsverfahren zu idealtypischen Sichtweisen zum Thema Nudging zusammengefasst. -->
 
 <!-- Diese Sichtweisen können schließlich vom Forscherteam induktiv interpretiert werden. Insbesondere kann mittels des neu entwickelten Q2D Verfahrens ermittelt werden, ob und inwiefern Bürgerinnen und Bürger zwischen (ontologischen) Annahmen und (axiologischen) Bewertungen unterscheiden. -->
@@ -368,97 +367,124 @@ Im Unterschied zu klassischen, jüngst in die Kritik geratenen Q-methodologische
 
 ## Was meinen wir mit Q (und verwandten Ansätzen)?
 
-<!--' Mittels Q Methode können subjektive Sichtweisen induktiv und operant (also als  -->
-<!--' "pures Verhalten") erfasst, systematisch zusammengefasst, und als idealtypische, -->
-<!--' geteilte Perspektiven holistisch interpretiert werden. Ein solcher Ansatz zur  -->
-<!--' operanten Subjektivität ist besonders hilfreich zur Untersuchung eines relativ  -->
-<!--' jungen Phänomem wie des Crowdsourcing, zudem Erfahrungen, Annahmen und Werte  -->
-<!--' gerade erst entstehen, und daher explorativ untersucht werden. Q Methode eignet  -->
-<!--' sich ebenfalls gut um Differenzen innerhalb eines Diskurses quantitativ zu  -->
-<!--' erheben, wenn sich -- wie beim Crowdsourcing -- unter einem Schlagwort recht  -->
-<!--' unterschiedliche Ausprägungen und Lebenswirklichkeiten versammeln. -->
+Über die historische Methodologie, Erhebungs- und Analyseverfahren von Q hinaus, verwenden wir Q als eine größere Gruppe von empirischen Ansätzen um menschliche Subjektivität zu erheben.
+Je nach Forschungsfrage und forschungspraktischen Erfordernissen variieren unsere Ansätze in der Skala der erhobene Daten (kategorial, ordinal, cardinal), der Dimensionalität der *individuellen* Differenzen (deduktive oder induktive Dimensionen), der dimensionsreduzierenden Projektion *in der Erhebung* und der Polarität der Subjektivität (unipolar oder bipolar).
+Diese Daten werden in entsprechenden quantitativen Verfahren zur Dimensionsreduktion zusammengefasst, um dann wieder holistisch, und als Essenzen von *idealtypischen* Subjektivitäten interpretiert werden können.
 
-<!--' Im Rahmen des Labouratory Projektes von Prof. Sabine Pfeiffer an der Universität -->
-<!--' Hohenheim entwickeln wir basierend auf der Q Methode das Echtzeit Beteiligungs-  -->
-<!--' und Diskussionsverfahren Q-Mindshare. In dem Verfahren sortieren zunächst die  -->
-<!--' Teilnehmenden mittels einer Webanwendung mehrere, vielfältige Aussagen zum Thema -->
-<!--' (hier Crowdsourcing) nach ihrem Grad der Zustimmung auf mehreren Dimensionen  -->
-<!--' (etwa Gegenwart oder Zukunft, Gewünscht oder Erwartet, etc.). Parallel werden  -->
-<!--' offene Rückmeldungen und Ergänzungen der Mitwirkenden zu den Aussagen  -->
-<!--' aufgezeichnet. Anschließend werden die einzelnen Sortierungen mittels einer  -->
-<!--' Hauptkomponentenanalyse dimensionsreduziert, rotiert und als geteilte,  -->
-<!--' idealtypische Sortierungen wieder ausgegegeben. Die Analyse wird in Echtzeit  -->
-<!--' durchgeführt, und aktualisiert und erweitert sobald eine neue vollständige  -->
-<!--' Sortierung in der Webanwendung eingegeben wurde. Die Ergebnisse können dann als  -->
-<!--' "geronnene Subjektivität" der Mitwirkenden gemeinsam interpretiert und  -->
-<!--' besprochen werden. -->
+Diese sehr verschiedenen Datentypen und Analysen einen einige zentrale Annahmen, wie sie ursprünglich Q Methodologe entnommen sind:
 
-<!--' Schon während der Erhebung schafft das Q-Mindshare Verfahren durch die  -->
-<!--' vielfältigen Aussagen eine gemeinsame Gesprächsgrundlage und entlockt den  -->
-<!--' Mitwirkenden neue Ideen, Kommentare und Fragen. Durch die Analyse in Echtzeift  -->
-<!--' hilft Q-Mindshare außerdem, die Diskussion anhand der idealtypischen Sichtweisen -->
-<!--' zu strukturieren und zu intensivieren: Die Ergebnisse bieten den Mitwirkenden  -->
-<!--' widerrum einen konkreten, fast greifbaren Anlass zur Reflektion und Reaktion.  -->
-<!--' Schließlich nutzen die extrahierten Sichtweisen auch als Ergebnisssicherung und  -->
-<!--' Dokumentation der gemeinsamen Arbeit. -->
+- Subjektivität wird als pures Verhalten, also *operant*, gemessen.
+    Demfolgend sollte eine Messung möglichst spontanes Verhalten abbilden und mit möglichst wenigen deduktiven Setzungen auskommen.
+    Ebenso sollte das Verfahren für Teilnehmde möglichst befriedigend sein (etwa durch "gamification").
+- Subjektivität wird *induktiv* (oder *abduktiv*) erforscht.
+    Demfolgend folgt die Analyse einem explorativen Ansatz, und wirkt lediglich dimensionsreduzierend, da weder Hypothesen getestet, noch latente Variablen geschätzt werden.
+- Subjektivität Bedeutung wird *ipsativ* und *holistisch* erfasst, also in den *relativen* Einschätzungen durch Teilnehmende von verschiedenen *Aussagen*.
+    Demfolgend sollte auch die Analyse, soweit möglich (durch Wahl der geeigneten Extrations- und Rotationsmethode) authentische Idealtypen generieren, die so auch tatsächlich beobachtet wurden.
 
-<!--' Über die Nutzung vor Ort im Workshop hinaus, bietet Q-Mindshare auch die  -->
-<!--' Möglichkeit die Ergebnisse (anonymisiert) online zu stellen. So können andere  -->
-<!--' Interessierte die Sichtweisen der Workshop-Teilnehmerinnen und Teilnehmer  -->
-<!--' mittels einer interaktiven Benutzeroberfläche nachvollziehen. Bei Interesse kann -->
-<!--' das Verfahren auch dauerhaft online fortgeführt werden, so dass Besucherinnen  -->
-<!--' und Besucher auf dieErgebnissen reagieren, und ihre eigene Subjektivität zum  -->
-<!--' Crowdsourcing dem Q-Mindshare hinzufügen können. -->
+Im Unterschied zu klassischer zu klassischen, jüngst in die Kritik geratenen Q-methodologischen Ansätzen [@Kampen-Tamas-2014], kommen hier aber konventionelle und aktuelle statistische Verfahren und Standards zum Einsatz.
+Analytische Sonderwege, wie etwa die Centroid-Extrationsmethode, oder die Ablehnung von Eigenwert-basierten Auswahl der Faktorenzahl [@Ramlo-2016] sind weder notwendig, noch ausreichend rechtfertigt.
+[^Besonders deutlich wird das in der Debatte über den "Centroid Myth", einem historischen Extraktionsverfahren, das vor der Verfügbarkeit von digitalen Computern als weniger rechenintensivere, aber unbestimmte Annäherung (!) an die aufwendige Hauptkomponentenanalyse entwickelt wurde, bis heute aber *wegen* seiner "Unbestimmtheit" eine besondere Eignung für Q-Methodologie zugesprochen wird.
+Wie Akthar-Danesh [-@Akthar-Danesh-2015] und besonders Peter Schmolck auf der Q-Emailliste ausführlich argumentiert haben, entbehrt dieser Sonderweg jeder nachvollziehbaren Grundlage.
+Einerseits ist die gelobte "Unbestimmtheit" der Centroid-Methode ein algorithmisches Artefakt, was bei computerbasierter Nutzung lediglich dem *Programmierer* eine gewisse Unbestimmtheit (in der Reflektion der Datenvektoren) bietet, aber nicht von Nutzern als solche erfahren, geschweige denn in den Dienst abduktiver Iteration gestellt werden könnte.
+Andererseits ist die Centroid-Methode *unabhängig* von einer eventuellen manuellen Rotation zu beurteilen, da letztere für *alle* faktoranalytischen Methoden zur Verfügung steht, sollte sie denn für angemessen gehalten werden.
+Hinzukommt, dass die Centroid-Methode im Unterschied zur Hauptkomponentenzerlegung ein Verfahren zur Bestimmung *latenter* Variablen ist, und damit augenscheinlich einer Methodologie der *operanten* Subjektivität widerspricht.
+]
+In den Begründungen für diese Sonderwege findet sich oft eine unheilvolle Vermischung von methodologischen Annahmen und statistischen Verfahren, wie etwa wenn Ramlo Q als "Mixed Method" charakterisiert [@Ramlo-2015], um dann irreführenderweise qualitative Konzepte in der quantitativen Analyse anzuwenden, wie etwa "Interpretierbarkeit" als Standard für die *Anzahl* der extrahierten Komponenten.
+Tatsächlich sind Q und verwandte Ansätze keine "Mixed Method", sondern eine *zweischrittige* Methode, mit epistemologisch unabhängigen qualitativen und quantitativen Ansätzen.
+In einem ersten, quantitativen Schritt werden die erhobenen Daten zusammen gefasst.
+Dieser Schritt erfolgt, gewissermaßen aus rein forschungspraktischen Erwägungen, weil eine *individuelle* Interpretation von zahlreichen Q-Sortierungen oft zu aufwendig ist, und schlecht zwischen idiosynkratischen und geteilten Bedeutungsmustern unterschieden werden kann.
+Trotzdem bleiben diese individuellen Sortierungen, sowie parallel erhobene qualitative Daten (etwa Itemfeedback, etc.) das *primäre Datum* in Q, weshalb die Datenreduktion und -aufbereitung auch möglichst nah an *tatsächlich auftretenden* Mustern der Subjektivität ausgerichtet sein sollte (etwa durch eine Quartimax-Rotation oder eine Non-Negative Matrix Factorisation (NMF)).
+Allerdings ist die Datenreduktion trotzdem ein rein "technischer" Schritt, der sich an abstrakten, objektivierbaren Qualitäten wie etwa den Eigenwerten oder den Faktorkorrellationen zu messen hat, *nicht* an wie auch immer gefassten Abduktionen über die Ergebnisse.
+Diese *qualitativen* Gütekriterien kommen erst wieder im *zweiten* Schritt zur Anwendung: der Faktor*interpretation*.
+Die technisch zusammengefassten idealtypischen Sichtweisen werden nun interpretiert, wie auch eine einzelne, zugrundlegende Sortierung zu interpretieren wäre: als individueller Ausdruck von Subjektivität.
+Ob --- oder ob nicht --- es tatsächlich *geteilte* Muster der Subjektivität *gibt*, ist eine rein empirisch-technische Frage, die *weder* die ursprünglichen Sortierung invalidiert, *noch* eine Vermischung von Gütekriterien qualitativer und quantitativer Erkenntnis erlaubt.
+Tatsächlich sollte in einer Q-methodologischen Arbeit die quantitative Technologie zur Zusammenfassung in den Hintergrund treten, sie ist lediglich forschungspraktisches Mittel zum Zweck, und produziert kaum quantitative Ergebnisse von substantiellem Interesse.
+Das bedeutet allerdings auch, dass der erste, dimensionsreduzierende Schritt der Q-Methodologie nicht mit interpretatorischen Erwartungen und qualitativen Gütekriterien überfrachtet wird.
+
+Durch eine solche statistisch-technische Aktualisierung der Q-methodologischen Grundlagen, bei gleichzeitig gestärktem Augenmerk auf eine einfache, elegante Datenerhebung bieten sich auch Möglichkeiten, neue Formate und Erweiterungen des Q Paradigma zu erproben, wie etwa mehrere Sortieranleitungen in der gemeinsamen Analyse (`Q-nD`), oder ein der Repertory Grid Technique (RGT) ähnliches Verfahren (`Q-Cat`) mit offenen Differenzdimensionen.
+Ebenso ergeben sich zahlreiche Verbesserungen und Neuerungen in der Analyse und graphischen Darstellung der Ergebnisse.
+In diesem, weiteren Sinne, versprechen Q und verwandte Ansätze klassische Gegensätze der empirischen Sozialforschung zu entschärfen.
+Q ermöglicht eine holistische und interpretative Sicht auf Subjektivität, schränkt aber im Unterschied zu kritischen, diskurstheoretischen oder ethnographischen Methoden den Forschenden stärker ein: Interpretationen müssen durch falsifizierbare und (u.U.) reproduzierbare Faktorergebnisse plausibilisiert werden.
+Diese quantitative Eingrenzung von Interpretationen kann helfen, die vielfältigen Subjektivitäten der Teilnehmenden gegenüber die Annahmen und Haltungen der Forschenden zu stärken.
+Q erlaubt eine *qualitative* Interpretation der Daten, skaliert aber auch zu größeren Fallzahlen und erlaubt unter Umständen verallgemeinerbare Ergebnisse.
+
+Keine Technologie und keine Methode können menschliche Verständigung automatisieren.
+Nichts ersetzt vollständig die *ursprüngliche* operante (Inter)subjektivität: das mühevolle, intensive Gespräch mit einem anders denkenden Menschen.
+Im Idealfall schafft es Q aber, sich diesem Austausch anzunähern, und ihn mit mehr Menschen zu ermöglichen, als es Forschenden sonst möglich wäre.
+Im Sinne einer transhumanistischen Subjektivität kann Q so moderne Technologie in den Dienst einer demokratischen, emanzipatorischen und pragmatischen Sozialwissenschaft stellen.
 
 
-## Warum Q (für Arbeitssoziologie)?
+## Warum Q (für Arbeitssoziologie und Wearables)?
 
-<!--' Q Methodologie wird in vielen Feldern eingesetzt, unter anderem Pflege- und  -->
-<!--' Gesundheitswissenschaften [@akthar-danesh-2008; @Exel-Baker-etal-2015; -->
-<!--' @baker2006q], Marketing [@Andrews-Drennan-etal-2046; -->
-<!--' @Mandolesi-Nicholas-etal-2015], Public Policy [@Baker-Jeffares-2013],  -->
-<!--' Psychotherapie [@Bambery-Porcerelli-2007], Persönlichkeitsforschung  -->
-<!--' [@Block-1961], Politikwissenschaft [@brown-1977] und Beteiligungsprozessen  -->
-<!--' [@Donner-2001; @Doody-Kearney-etal-2009; @Niemeyer2013]. -->
+Q Methodologie wird in vielen Feldern eingesetzt, unter anderem Pflege- und Gesundheitswissenschaften [@akthar-danesh-2008; @Exel-Baker-etal-2015; @baker2006q], Marketing [@Andrews-Drennan-etal-2046; @Mandolesi-Nicholas-etal-2015], Public Policy [@Baker-Jeffares-2013], Psychotherapie [@Bambery-Porcerelli-2007], Persönlichkeitsforschung [@Block-1961],  Politikwissenschaft [@brown-1977] und Beteiligungsprozessen [@Donner-2001; @Doody-Kearney-etal-2009; @Niemeyer2013].
 
-(...)
+Mittels Q Methode können subjektive Sichtweisen induktiv und operant (also als "pures Verhalten") erfasst, systematisch zusammengefasst, und als idealtypische, geteilte Perspektiven holistisch interpretiert werden. 
+Ein solcher Ansatz zur operanten Subjektivität ist besonders hilfreich zur Untersuchung eines relativ jungen Phänomem wie Wearables, zudem Erfahrungen, Annahmen und Werte gerade erst entstehen, und daher explorativ untersucht werden.
+Q Methode eignet sich ebenfalls gut um *Differenzen* innerhalb eines Diskurses quantitativ zu erheben, wenn sich unter einem Schlagwort recht unterschiedliche Ausprägungen und Lebenswirklichkeiten versammeln [vgl. @ascher1987subjectivity].
 
-<!-- [@Niemeyer-2011-bookchap]  intersubjective rationaliy etc -->
+Q Methode ist auch besonders empfohlen um *vermachtete Situationen und Diskurse* zu untersuchen, und Teilnemende zu emanzipieren [@Brown-2006].
+Billard zeigt etwa, wie eine feministische Lesart der Q Methode in der *Unternehmensmitbestimmung* (engl. "industrial relations") demokratische Teilhabe stärken kann [@Billard-1999].
 
-<!-- [@ascher1987subjectivity] on a subjective social sciences -->
 
-<!-- [@Billard-1999] q is democratic also uses it for industrial democracy! -->
+### Q Mindshare (Q als Beteiligungstechnologie für Workshops o.ä.)
 
-<!-- [@Donner-2001; @Doody-Kearney-etal-2009] participatory technique -->
+Q Methodologie kann auch als *Beteiligungs- und Gesprächstechnologie* in Workshops, Bürgerforen oder ähnlichen Formaten als "Q-Mindshare" Echtzeit-Analyse verwendet werden [zu Q als Beteiligungstechnoglie vgl. @Niemeyer-2011-bookchap; @Donner-2001; @Doody-Kearney-etal-2009].
 
-<!-- [@Brown-2006] marginalized for the marginalised -->
+Schon während der Erhebung schafft das Q-Mindshare Verfahren durch die vielfältigen Aussagen eine gemeinsame Gesprächsgrundlage und entlockt den Mitwirkenden neue Ideen, Kommentare und Fragen. 
+Durch die Analyse in Echtzeit hilft Q-Mindshare außerdem, die Diskussion anhand der idealtypischen Sichtweisen zu strukturieren und zu intensivieren: 
+Die Ergebnisse bieten den Mitwirkenden widerrum einen konkreten, fast greifbaren Anlass zur Reflektion und Reaktion.
+Schließlich nutzen die extrahierten Sichtweisen auch als Ergebnisssicherung und Dokumentation der gemeinsamen Arbeit.
 
-<!-- - **operant**, because they arise *spontaneously* as participants engage the  -->
-<!-- items, [vgl. @Brown1980: 70] - **inductive**, because participants describe  -->
-<!-- their own, *open-ended* categories, which can be neither correct, nor incorrect, -->
-<!-- - **ipsatively** assigned, because categories are originally defined as  -->
-<!-- *similarity* between categories. -->
+Über die Nutzung vor Ort im Workshop hinaus, bietet Q-Mindshare auch die Möglichkeit die Ergebnisse (anonymisiert) online zu stellen. 
+So können andere Interessierte die Sichtweisen der Workshop-Teilnehmerinnen und Teilnehmer mittels einer interaktiven Benutzeroberfläche nachvollziehen. 
+Bei Interesse kann das Verfahren auch dauerhaft online fortgeführt werden, so dass Besucherinnen und Besucher auf die Ergebnissen reagieren, und ihre eigene Subjektivität zum Thema Wearables dem Q-Mindshare hinzufügen können.
 
-<!-- die induktiv/abduktiv arbeiten (also möglichst wenig konzeptionell ex-ante  -->
-<!-- operationalisieren). die explorativ sind, d.h. keine latenten Variablen annehmen -->
-<!-- oder Hypothesen testen (deshalb reine Dimensionsreduzierung als Analyse) die  -->
-<!-- operant für die Teilnehmende sind, also in denen Subjektivität als unmittelbares -->
-<!-- Verhalten aufgezeichnet wird, am besten gamified die qualitative Daten erheben  -->
-<!-- (offenes Feedback), und letztlich qualitativ interpretiert werden müssen, … aber -->
-<!-- trotzdem mit großen Fallzahlen (von mehreren Dutzend bis zu Big Data) arbeiten  -->
-<!-- können. -->
+Im Rahmen des Labouratory Projektes von Prof. Sabine Pfeiffer an der Universität Hohenheim entwickeln wir basierend auf der Q Methode das Echtzeit Beteiligungs- und Diskussionsverfahren Q-Mindshare. 
+In dem Verfahren sortieren zunächst die Teilnehmenden mittels einer Webanwendung mehrere, vielfältige Aussagen zum Thema (hier Wearables) nach ihrem Grad der Zustimmung auf mehreren Dimensionen (etwa Gegenwart oder Zukunft, Gewünscht oder Erwartet, etc.). 
+Parallel werden offene Rückmeldungen und Ergänzungen der Mitwirkenden zu den Aussagen aufgezeichnet. 
+Anschließend werden die einzelnen Sortierungen mittels einer Hauptkomponentenanalyse dimensionsreduziert, rotiert und als geteilte, idealtypische Sortierungen wieder ausgegegeben. 
+Die Analyse wird in Echtzeit durchgeführt, und aktualisiert und erweitert sobald eine neue vollständige Sortierung in der Webanwendung eingegeben wurde. 
+Die Ergebnisse können dann als "geronnene Subjektivität" der Mitwirkenden gemeinsam interpretiert und besprochen werden.
 
 
 ## Q und Big Data
 
-(...)
+**Sehr fragmentarisch, noch unbelegt**.
 
-<!-- Nur Prozessdaten; nur operative Definitionen. -->
+Big Data, also die Verwendung von großen Datensätzen (etwa größer als der Arbeitsspeicher) sind in aller Munde und versprechen genauere Erkenntnisse über menschliches Verhalten.
+
+Im Unterschied zur Q Methodologie umfassen die meisten "Big Data" Datensätze bisher vor allem Prozessdaten, also Daten, die "nebenbei", durch eine EDV-vermittelte Transaktion entstehen, wie etwa angeschaute Filme, Bewegungsprofile oder Produktbewertungen.
+Zwar werden diese Daten typischerweise explorativ analysiert (vgl. "Data Mining"), die induktive Reichweite ist aber oft begrenzt, und ein Einblick in menschliche Subjektivität weiter verstellt.
+Um menschlicher Bedeutung auf die Spur zu kommen, steht Big Data hier vor einer doppelten Herausforderung.
+Einerseits sind Künstliche Intelligenz (KI) Algorithmen oft noch nicht in der Lage, um aus offenen aber unstrukturierten Daten, wie etwa freien Textfeldern, nuancierte menschliche Einschätzungen zu erkennen.
+Die Analyse von großen Textkorpi beschränkt sich daher oft auf relativ rudimentäre Elemente menschlicher Subjektivität, wie etwa "Sentiment Analysis", die beispielsweise die Stimmung von freien Kommentartexte schätzen kann.
+Andererseits bieten sich im Rahmen von Big Data auch viele strukturierte Daten, die zwar leichter analysiert werden können, aber typischerweise operationellen Definitionen folgen: Subjektivität beschreiben kann nur, was im Prozess anfällt.
+Diese Einschränkung widerspricht dem Gebot der expressiven Vielfalt eines guten Q-Sets, und birgt die Gefahr eines Zirkelschlusses, wenn aus Prozessdaten Annahmen über menschliche Subjektivität abgeleitet werden.
+Da sich Teilnehmende (oder Nutzer) nur über den Prozess ausdrücken können, wird kaum etwas über einen anderen Prozess in Erfahrung zu bringen sein, oder über tiefere Bedeutungen.
+Beispielsweise lässt sich aus den Pageviews aus dem beschränkten Warenkatalog eines Tierfutter-Versandhändlers wenig darüber ableiten, welche Subjektivität eine Nutzerin zu ihrem Haustier und dessen Ernährung hat.
+Zum einen gilt das, weil die Auswahl an Artikeln, und damit mögliche Pageviews, selbst bei einem großen Versandhändler beschränkt sind.
+Zum anderen ist eine angesehen Seite eines Tierfutterprodukts zwar ein strukturiertes, aber ebenso verengtes Datum: Wir erfahren nicht, *warum* die Nutzerin sich für dieses oder jene Produkt entschieden hat.
+
+Diese Einschränkungen mögen für Big Data naturgemäß, und wenig problematisch sein, etwa wenn es darum geht, Verkaufsverhalten vorherzusagen oder auf Nutzer zugeschnittene Anzeigen zu schalten.
+Das hier relevante menschliche *Verhalten* des Kaufens ist eine recht beschränkte Domäne, und kann einfacher modelliert werden.
+
+Wenn es aber um eine sozialwissenschaftliche Fragestellung, oder auch nur grundlegendere Marktforschung geht, werden die Einschränkungen von Big Data problematisch.
+Fragen nach Institutionen, Kontexten und sozialem Wandel werden sich kaum mit ausschließlich durch *bestehende* Institutionen im Prozess entstandene, und bedeutungsarme Daten zufriedenstellend untersuchen lassen.
+
+Jedenfalls solange KI Algorithmen nicht in der Lage sind natürliche Sprache umfassend und nuanciert zu analysieren, bietet Q hier einen fruchtbareren Ansatz:
+Mittels der Q-Sortierung erhebt Q auch strukturierte Daten, setzt dabei aber auf die größere expressive Vielfalt eines sorgfältig erstellten Q-Sets.
+Zudem kann durch eine ipsative Sortierung *relative* Bedeutung erhoben werden, und durch beliebiges offenes Feedback ergänzt werden.
+Damit kann Q auch bestehende Big Data Ansätze um eine tiefere und holistische Sicht erweitern.
+Hier bieten sich auch gemeinsame Analysen an, um etwa Zusammenhänge zwischen Prozessdaten und Q-Daten zu erkennen.
+
+Umgekehrt kann ein Q-Ansatz von deutlich größeren Datensätzen profitieren.
+Bisher ist Big Data nur vorläufig als *Quelle* für Q-Items [@Jeffares-2014], jedoch nie als Modus einer Q Studie erprobt worden, was unter anderem an dem noch ungelösten HDLSS-Problem von Q liegen mag (s.u.).
+Mit neuen, oft im Zuge von Big Data verwandten Analysen (etwa MPCA, Supervised Learning Algorithmen) bieten sich zahlreiche Chancen (siehe unten), das HDLSSS Problem zu lösen, und zu deutlich umfangreicheren (in der Anzahl der Aussagen) und nuancierteren Idealtypen (in der Anzahl der Faktoren) zu kommen.
 
 
 ## Ansätze zum HDLSS-Problem von Q
 
-Wie von @Kampen-Tamas-2014 beschrieben -- wenn auch mit falschen Schlussfolgerungen -- steht Q vor einem grundsätzlichen Problem: 
+Wie von @Kampen-Tamas-2014 beschrieben --- wenn auch mit falschen Schlussfolgerungen --- steht Q vor einem grundsätzlichen Problem: 
 In größeren Studien gibt es *mehr* Leute-Variablen als Item-Fälle, was eine solide Extraktion von (vielen) Faktoren erschwert.
 
 Solche Daten und die damit verbundenen Probleme sind unter anderem aus der Biostatistik bekannt, wo sie als "High Dimensionality Low Sample Size" (HDLSS) bezeichnet werden [u.a. @Yata-Aoshima-2015].

@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://qwrks.github.io"
 languageCode = "de"
 title = "QWrks"
 theme = "hugo-agency-theme"

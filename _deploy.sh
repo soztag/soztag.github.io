@@ -8,7 +8,7 @@ set -e
 git config --global user.email "info@maxheld.de"
 git config --global user.name "Maximilian Held"
 
-git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git \blogdown-output
+git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git blogdown-output
 cd blogdown-output
 git rm -rf .
 cp -r ../public/* ./

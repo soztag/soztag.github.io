@@ -12,6 +12,7 @@ git clone -b master https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git blo
 cd blogdown-output
 git rm -rf .
 cp -r ../public/* ./
+touch .nojekyll
 git add --all *
 git commit -m "Update webpage" || true
 git push origin master

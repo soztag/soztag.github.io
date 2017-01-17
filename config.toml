@@ -97,7 +97,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-comments-o"
       title = "Qualitative Daten"
-      description = "Im Zentrum unserer Forschung steht die Sichtweise des einzelnen Arbeitenden. Deshalb erheben wir umfangreiche qualitative und offene Daten."
+      description = "Im Zentrum unserer Forschung steht die Sichtweise des einzelnen Arbeitenden. Deshalb erheben wir umfangreiche qualitative Daten und offenes Feedback."
       url = ""
 
     [[params.services.row.list]]

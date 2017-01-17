@@ -2,9 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-
-warum-q.html
-
-warum-q.pdf
-
-warum-q.docx
+public/
+themes/
+.DS_Store

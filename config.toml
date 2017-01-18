@@ -304,7 +304,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Universität Hohenheim 2016-2017. <br/> Läuft auf [Hugo](https://gohugo.io) mit [Agency Thema](https://github.com/digitalcraftsman/hugo-agency-theme)."
+    copyright = "Universität Hohenheim 2016-2017. <br/> Läuft auf [Hugo](https://gohugo.io) via [blogdown](https://github.com/rstudio/blogdown) mit [Agency Thema](https://github.com/digitalcraftsman/hugo-agency-theme)."
 
     [[params.footer.social]]
       icon = "fa-github"

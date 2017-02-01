@@ -229,6 +229,12 @@ Version: 1.6.0
 Hash: b90f4cbefe0b3c545dd68b22c66a8a12
 Requires: stringr
 
+Package: magick
+Source: CRAN
+Version: 0.3
+Hash: 6e5f24e3ab8ccfe2136bc6b865cdec5a
+Requires: Rcpp, curl
+
 Package: magrittr
 Source: CRAN
 Version: 1.5
@@ -284,6 +290,11 @@ Source: CRAN
 Version: 0.4.8-1
 Hash: 6ad605ba7b4b476d84be6632393f5765
 
+Package: pbapply
+Source: CRAN
+Version: 1.3-1
+Hash: 3fcddfc63615dd60b4e2ae74b6bb929b
+
 Package: plyr
 Source: CRAN
 Version: 1.8.4
@@ -323,6 +334,7 @@ Requires: Rcpp, plyr, stringr
 Package: rjson
 Source: CRAN
 Version: 0.2.15
+Hash: def074f38d0cff3b597649ee6f976128
 
 Package: rmarkdown
 Source: CRAN
@@ -400,6 +412,7 @@ Requires: broom, dplyr, forcats, ggplot2, haven, hms, httr, jsonlite,
 Package: tutorial
 Source: CRAN
 Version: 0.4.3
+Hash: 1f42e564dd3aee1c8b85e2a76c1f999b
 Requires: base64enc, knitr, markdown, rjson
 
 Package: whisker

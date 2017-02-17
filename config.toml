@@ -121,7 +121,7 @@ googleAnalytics = ""
    [[params.services.row.list]]
       icon = "fa-cubes"
       title = "Moderne Statistik"
-      description = "Wir verwenden validierte statistische Modelle und richten uns nach etablierten Standards. Wir ersetzen und erweitern die historischen Verfahren der Q Methode durch neue Algorithmen für eine zeitgemäße Wissenschaft der Subjektivität."
+      description = "Wir verwenden validierte statistische Modelle und richten uns nach etablierten Standards. Wir ersetzen und erweitern die historischen Verfahren der Q Methode durch neue Algorithmen für eine zeitgemäße Erforschung von Subjektivität."
       url = ""
 
   # Portfolio section
@@ -173,7 +173,7 @@ googleAnalytics = ""
       img = "scores.jpg"
       date = "Interpretation"
       title = "Q Faktorscores"
-      description = "Aus den Rohdaten werden idealtypische Sortierung errechnet, und holistisch interpretiert. Diese Ergebnisse reflektieren *geteilte* Muster der subjektiven Arbeitswelten der Teilnehmenden."
+      description = "Aus den Rohdaten werden idealtypische Sortierung errechnet, und holistisch interpretiert. Diese Ergebnisse reflektieren *geteilte* Muster der subjektiven Arbeitswelten."
 
 
   # Team section

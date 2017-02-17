@@ -73,7 +73,7 @@ Package: broom
 Source: CRAN
 Version: 0.4.1
 Hash: c90145ada2eac0128487c21ab2ac9c78
-Requires: dplyr, nlme, plyr, psych, reshape2, stringr, tidyr
+Requires: dplyr, plyr, psych, reshape2, stringr, tidyr
 
 Package: caTools
 Source: CRAN
@@ -141,6 +141,11 @@ Package: foreign
 Source: CRAN
 Version: 0.8-67
 Hash: 34615798e8a5c7bb2f69f4efc3e17b71
+
+Package: formatR
+Source: CRAN
+Version: 1.4
+Hash: b2a47a2b91737978cf50ba95825a9cd1
 
 Package: ggplot2
 Source: CRAN
@@ -273,12 +278,6 @@ Source: CRAN
 Version: 0.4.3
 Hash: f96d896947fcaf9b6d0074002e9f4f9d
 Requires: colorspace
-
-Package: nlme
-Source: CRAN
-Version: 3.1-130
-Hash: 37e6b5af14eefb08c1e5163c640d8162
-Requires: lattice
 
 Package: openssl
 Source: CRAN

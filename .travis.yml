@@ -1,0 +1,15 @@
+language: generic
+warnings_are_errors: false
+cache:
+  packages: true
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: bash deploy2karli.sh
+  on:
+    branch: master
+notifications:
+  email: false
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_e09cdce4e96d_key -iv $encrypted_e09cdce4e96d_iv
+  -in karli_rsa.enc -out /tmp/karli_rsa -d

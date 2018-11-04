@@ -8,4 +8,5 @@ ssh-add /tmp/karli_rsa
 # auth etc.
 # as per https://docs.travis-ci.com/user/ssh-known-hosts/
 
-rsync -r --delete-after --quiet index.html pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource/
+# careful with this; must not delete, otherwise all other website are lost
+rsync -r --quiet index.html pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource/

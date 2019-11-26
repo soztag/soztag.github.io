@@ -11,9 +11,9 @@ jobs:
           Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
           Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
       - run: |-
-          Rscript -e "deploy_path <- rmarkdown::render_site(encoding = 'UTF-8')"
-          Rscript -e "deploy_path <- fs::path_dir(deploy_path)"
-          Rscript -e "Sys.setenv(DEPLOY_PATH = deploy_path)"
+          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
+          echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
+          echo $DEPLOY_PATH
       - if: github.ref == 'refs/heads/master'
         uses: maxheld83/rsync@v0.1.1
         with:

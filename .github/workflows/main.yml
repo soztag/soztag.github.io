@@ -1,23 +1,15 @@
-name: Render and Deploy RMarkdown Website
-'on': push
+name: Deploy Forward
+"on": push
 jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@master
-      - name: Install Package Dependencies
-        run: |-
-          Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
-          Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
-      - run: |-
-          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
-          echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
-          echo $DEPLOY_PATH
       - if: github.ref == 'refs/heads/master'
         uses: maxheld83/rsync@v0.1.1
         with:
-          args: -r $GITHUB_WORKSPACE/$DEPLOY_PATH/ pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource
+          args: -r $GITHUB_WORKSPACE/index.html pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource
         env:
           HOST_NAME: karli.rrze.uni-erlangen.de
           HOST_IP: 131.188.16.138

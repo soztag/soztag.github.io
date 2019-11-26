@@ -1,0 +1,27 @@
+name: Render and Deploy RMarkdown Website
+'on': push
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@master
+      - name: Install Package Dependencies
+        run: |-
+          Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
+          Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
+      - run: |-
+          Rscript -e "deploy_path <- rmarkdown::render_site(encoding = 'UTF-8')"
+          Rscript -e "deploy_path <- fs::path_dir(deploy_path)"
+          Rscript -e "Sys.setenv(DEPLOY_PATH = deploy_path)"
+      - if: github.ref == 'refs/heads/master'
+        uses: maxheld83/rsync@v0.1.1
+        with:
+          args: -r $GITHUB_WORKSPACE/$DEPLOY_PATH/ pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource
+        env:
+          HOST_NAME: karli.rrze.uni-erlangen.de
+          HOST_IP: 131.188.16.138
+          HOST_FINGERPRINT: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFHJVSekYKuF5pMKyHe1jS9mUkXMWoqNQe0TTs2sY1OQj379e6eqVSqGZe+9dKWzL5MRFpIiySRKgvxuHhaPQU4=
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+    container: rocker/verse:latest

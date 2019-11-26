@@ -1,0 +1,75 @@
+```{r readme, child="README.md"}
+```
+
+## Aktuelle Projekte {-}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="denkzeug"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+
+## Lehre {-}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="fossos"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="qdelib"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="groundhog"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+
+## Abgeschlossene Projekte {-}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="crowd"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="bsjobs"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+
+## Entwürfe {-}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="mindset"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="sublab"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="worktypes"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>
+
+# Sonstiges {-}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="backup"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+  <div class="col-md-6">
+    <div class="github-card" data-user="soztag" data-repo="printer"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </div>
+</div>

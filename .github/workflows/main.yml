@@ -9,7 +9,7 @@ jobs:
       - if: github.ref == 'refs/heads/master'
         uses: maxheld83/rsync@v0.1.1
         with:
-          args: -r $GITHUB_WORKSPACE/index.html pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource
+          args: -r $GITHUB_WORKSPACE/index.html $GITHUB_WORKSPACE/.htaccess pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource
         env:
           HOST_NAME: karli.rrze.uni-erlangen.de
           HOST_IP: 131.188.16.138
